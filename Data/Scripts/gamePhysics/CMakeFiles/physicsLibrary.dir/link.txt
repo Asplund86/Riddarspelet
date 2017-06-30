@@ -1,0 +1,2 @@
+/usr/bin/ar qc libphysicsLibrary.a  CMakeFiles/physicsLibrary.dir/moveScripts.c.o
+/usr/bin/ranlib libphysicsLibrary.a

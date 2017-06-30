@@ -1,0 +1,2 @@
+/usr/bin/ar qc librenderLibrary.a  CMakeFiles/renderLibrary.dir/doRender.c.o CMakeFiles/renderLibrary.dir/renderDeclareBackgrounds.c.o CMakeFiles/renderLibrary.dir/renderDeclareKnight1.c.o
+/usr/bin/ranlib librenderLibrary.a

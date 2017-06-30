@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcoreLibrary.a  CMakeFiles/coreLibrary.dir/coreEvents.c.o
+/usr/bin/ranlib libcoreLibrary.a

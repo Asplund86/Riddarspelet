@@ -1,0 +1,12 @@
+/home/emil/code/FirstGame/CMakeFiles/rebuild_cache.dir
+/home/emil/code/FirstGame/CMakeFiles/KNIGHT.dir
+/home/emil/code/FirstGame/CMakeFiles/edit_cache.dir
+/home/emil/code/FirstGame/Data/Scripts/coreScripts/CMakeFiles/rebuild_cache.dir
+/home/emil/code/FirstGame/Data/Scripts/coreScripts/CMakeFiles/coreLibrary.dir
+/home/emil/code/FirstGame/Data/Scripts/coreScripts/CMakeFiles/edit_cache.dir
+/home/emil/code/FirstGame/Data/Scripts/renderScripts/CMakeFiles/rebuild_cache.dir
+/home/emil/code/FirstGame/Data/Scripts/renderScripts/CMakeFiles/renderLibrary.dir
+/home/emil/code/FirstGame/Data/Scripts/renderScripts/CMakeFiles/edit_cache.dir
+/home/emil/code/FirstGame/Data/Scripts/gamePhysics/CMakeFiles/rebuild_cache.dir
+/home/emil/code/FirstGame/Data/Scripts/gamePhysics/CMakeFiles/physicsLibrary.dir
+/home/emil/code/FirstGame/Data/Scripts/gamePhysics/CMakeFiles/edit_cache.dir

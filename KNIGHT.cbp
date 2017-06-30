@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="KNIGHT"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\modules\;CMake Files\Data\;CMake Files\Data\Scripts\;CMake Files\Data\Scripts\coreScripts\;CMake Files\Data\Scripts\renderScripts\;CMake Files\Data\Scripts\gamePhysics\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/emil/code/FirstGame"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/emil/code/FirstGame"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KNIGHT">
+				<Option output="/home/emil/code/FirstGame/KNIGHT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emil/code/FirstGame"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 KNIGHT"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KNIGHT/fast">
+				<Option output="/home/emil/code/FirstGame/KNIGHT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emil/code/FirstGame"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 KNIGHT/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/emil/code/FirstGame"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="coreLibrary">
+				<Option output="/home/emil/code/FirstGame/Data/Scripts/coreScripts/libcoreLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emil/code/FirstGame/Data/Scripts/coreScripts"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/coreScripts/Makefile&quot;  VERBOSE=1 coreLibrary"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/coreScripts/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/coreScripts/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/coreScripts/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="coreLibrary/fast">
+				<Option output="/home/emil/code/FirstGame/Data/Scripts/coreScripts/libcoreLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emil/code/FirstGame/Data/Scripts/coreScripts"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/coreScripts/Makefile&quot;  VERBOSE=1 coreLibrary/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/coreScripts/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/coreScripts/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/coreScripts/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="renderLibrary">
+				<Option output="/home/emil/code/FirstGame/Data/Scripts/renderScripts/librenderLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emil/code/FirstGame/Data/Scripts/renderScripts"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/renderScripts/Makefile&quot;  VERBOSE=1 renderLibrary"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/renderScripts/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/renderScripts/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/renderScripts/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="renderLibrary/fast">
+				<Option output="/home/emil/code/FirstGame/Data/Scripts/renderScripts/librenderLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emil/code/FirstGame/Data/Scripts/renderScripts"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/renderScripts/Makefile&quot;  VERBOSE=1 renderLibrary/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/renderScripts/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/renderScripts/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/renderScripts/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="physicsLibrary">
+				<Option output="/home/emil/code/FirstGame/Data/Scripts/gamePhysics/libphysicsLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emil/code/FirstGame/Data/Scripts/gamePhysics"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/gamePhysics/Makefile&quot;  VERBOSE=1 physicsLibrary"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/gamePhysics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/gamePhysics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/gamePhysics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="physicsLibrary/fast">
+				<Option output="/home/emil/code/FirstGame/Data/Scripts/gamePhysics/libphysicsLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emil/code/FirstGame/Data/Scripts/gamePhysics"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/gamePhysics/Makefile&quot;  VERBOSE=1 physicsLibrary/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/gamePhysics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/gamePhysics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/gamePhysics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/emil/code/FirstGame/Data/Scripts/coreScripts/coreEvents.c">
+			<Option target="coreLibrary"/>
+		</Unit>
+		<Unit filename="/home/emil/code/FirstGame/Data/Scripts/coreScripts/coreEvents.h">
+			<Option target="coreLibrary"/>
+		</Unit>
+		<Unit filename="/home/emil/code/FirstGame/Data/Scripts/coreScripts/structs.h">
+			<Option target="coreLibrary"/>
+		</Unit>
+		<Unit filename="/home/emil/code/FirstGame/Data/Scripts/gamePhysics/moveScripts.c">
+			<Option target="physicsLibrary"/>
+		</Unit>
+		<Unit filename="/home/emil/code/FirstGame/Data/Scripts/gamePhysics/moveScripts.h">
+			<Option target="physicsLibrary"/>
+		</Unit>
+		<Unit filename="/home/emil/code/FirstGame/Data/Scripts/renderScripts/doRender.c">
+			<Option target="renderLibrary"/>
+		</Unit>
+		<Unit filename="/home/emil/code/FirstGame/Data/Scripts/renderScripts/doRender.h">
+			<Option target="renderLibrary"/>
+		</Unit>
+		<Unit filename="/home/emil/code/FirstGame/Data/Scripts/renderScripts/renderDeclareBackgrounds.c">
+			<Option target="renderLibrary"/>
+		</Unit>
+		<Unit filename="/home/emil/code/FirstGame/Data/Scripts/renderScripts/renderDeclareBackgrounds.h">
+			<Option target="renderLibrary"/>
+		</Unit>
+		<Unit filename="/home/emil/code/FirstGame/Data/Scripts/renderScripts/renderDeclareKnight1.c">
+			<Option target="renderLibrary"/>
+		</Unit>
+		<Unit filename="/home/emil/code/FirstGame/Data/Scripts/renderScripts/renderDeclareKnight1.h">
+			<Option target="renderLibrary"/>
+		</Unit>
+		<Unit filename="/home/emil/code/FirstGame/main.c">
+			<Option target="KNIGHT"/>
+		</Unit>
+		<Unit filename="/home/emil/code/FirstGame/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/emil/code/FirstGame/cmake/modules/FindSDL2.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/home/emil/code/FirstGame/cmake/modules/FindSDL2_image.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/home/emil/code/FirstGame/Data/Scripts/coreScripts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Data\Scripts\coreScripts\"/>
+		</Unit>
+		<Unit filename="/home/emil/code/FirstGame/Data/Scripts/renderScripts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Data\Scripts\renderScripts\"/>
+		</Unit>
+		<Unit filename="/home/emil/code/FirstGame/Data/Scripts/gamePhysics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Data\Scripts\gamePhysics\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

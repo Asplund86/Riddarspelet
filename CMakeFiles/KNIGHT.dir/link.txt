@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/KNIGHT.dir/main.c.o  -o KNIGHT -Wl,-Bstatic -lSDL2main -Wl,-Bdynamic -lSDL2 -lpthread -lSDL2_image Data/Scripts/coreScripts/libcoreLibrary.a Data/Scripts/renderScripts/librenderLibrary.a Data/Scripts/gamePhysics/libphysicsLibrary.a -Wl,-Bstatic -lSDL2main -Wl,-Bdynamic -lSDL2 -lpthread -lSDL2_image 

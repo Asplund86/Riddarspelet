@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/emil/code/FirstGame/Data/Scripts/coreScripts/coreEvents.c
+coreEvents.h
+/home/emil/code/FirstGame/Data/Scripts/coreScripts/coreEvents.h
+SDL2/SDL.h
+-
+SDL2/SDL_image.h
+-
+SDL2/SDL_timer.h
+-
+stdio.h
+-
+structs.h
+/home/emil/code/FirstGame/Data/Scripts/coreScripts/structs.h
+
+/home/emil/code/FirstGame/Data/Scripts/coreScripts/coreEvents.h
+SDL2/SDL.h
+-
+SDL2/SDL_image.h
+-
+SDL2/SDL_timer.h
+-
+stdio.h
+-
+structs.h
+/home/emil/code/FirstGame/Data/Scripts/coreScripts/structs.h
+
+/home/emil/code/FirstGame/Data/Scripts/coreScripts/structs.h
+SDL2/SDL.h
+-
+
