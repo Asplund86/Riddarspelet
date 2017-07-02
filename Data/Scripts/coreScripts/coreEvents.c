@@ -9,35 +9,46 @@
 #include <stdio.h>
 #include "structs.h"
 
-int closeGameEvent(SDL_Window *window){
-    SDL_Event eventCloseGame;
-    int done = 0;
 
-    while(SDL_PollEvent(&eventCloseGame)){
+void processEvents(SDL_Window *window, GameState *game) {
+  SDL_Event event;
+  game->gameInit.closeGame = 0;
 
-        switch (eventCloseGame.type){
-
-            case SDL_WINDOWEVENT_CLOSE:{
-                if(window){
-                    SDL_DestroyWindow(window);
-                    window = NULL;
-                    int done = 1;
-                }
-            }
-                break;
-
-            case SDL_KEYDOWN:{
-                switch (eventCloseGame.key.keysym.sym){
-                    case SDLK_ESCAPE:
-                        done = 1;
-                        break;
-                }
-                break;
-            }
-            case SDL_QUIT:
-                done = 1;
-                break;
-        }
+while(SDL_PollEvent(&event))
+{
+  switch(event.type)
+  {
+    case SDL_WINDOWEVENT_CLOSE:
+    {
+      if(window)
+      {
+        SDL_DestroyWindow(window);
+        window = NULL;
+        game->gameInit.closeGame = 1;
+      }
     }
-    return done;
+    break;
+    case SDL_KEYDOWN:
+    {
+      switch(event.key.keysym.sym)
+      {
+        case SDLK_ESCAPE:
+        game->gameInit.closeGame = 1;
+        break;
+
+        case SDLK_SPACE:
+          if(game->knight1.jumping == 2){
+            game->knight1.jumping = 1;
+            game->knight1.currentYpos = game->knight1.y;
+          }
+        break;
+      }
+    }
+    break;
+    case SDL_QUIT:
+      //quit out of the game
+      game->gameInit.closeGame = 1;
+    break;
+  }
+}
 }

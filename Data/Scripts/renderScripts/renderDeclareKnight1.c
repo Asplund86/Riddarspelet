@@ -15,31 +15,43 @@
 void renderDeclareKnight1(GameState *game){
 
 
-    //Declaring surface and texture for walk1.
-    char *surfacePath = {"Data/Images/knight1/walk1.png"};
+    //Declaring surface and texture for walkAnimation.
+    char *surfacePath[10] = {"Data/Images/knight1/images/walk/Walk.png",
+                             "Data/Images/knight1/images/walk/Walk (2).png",
+                             "Data/Images/knight1/images/walk/Walk (3).png",
+                             "Data/Images/knight1/images/walk/Walk (4).png",
+                             "Data/Images/knight1/images/walk/Walk (5).png",
+                             "Data/Images/knight1/images/walk/Walk (6).png",
+                             "Data/Images/knight1/images/walk/Walk (7).png",
+                             "Data/Images/knight1/images/walk/Walk (8).png",
+                             "Data/Images/knight1/images/walk/Walk (9).png",
+                             "Data/Images/knight1/images/walk/Walk (10).png"};
 
-    SDL_Surface *surface = IMG_Load(surfacePath);
-    
+    for(int i = 0; i < 10; i++) {
 
-    if(!surface){
-        printf("Error loading %s: %s\n", surfacePath, SDL_GetError());
-        //Shutdown
-        SDL_DestroyRenderer(game->gameInit.renderer);
-        SDL_DestroyWindow(game->gameInit.window);
-        SDL_Quit();
-        exit(1);
-    }
+        SDL_Surface *surface = IMG_Load(surfacePath[i]);
 
-    game->images.knightTexture.walk1 = SDL_CreateTextureFromSurface(game->gameInit.renderer, surface);
-    SDL_FreeSurface(surface);
 
-    if(!game->images.knightTexture.walk1){
-        printf("Error loading texture for %s: %s\n", surfacePath, SDL_GetError());
-        //Shutdown
-        SDL_DestroyRenderer(game->gameInit.renderer);
-        SDL_DestroyWindow(game->gameInit.window);
-        SDL_Quit();
-        exit(1);
+        if (!surface) {
+            printf("Error loading %s: %s\n", surfacePath[i], SDL_GetError());
+            //Shutdown
+            SDL_DestroyRenderer(game->gameInit.renderer);
+            SDL_DestroyWindow(game->gameInit.window);
+            SDL_Quit();
+            exit(1);
+        }
+
+        game->images.knightTexture.walk[i]= SDL_CreateTextureFromSurface(game->gameInit.renderer, surface);
+        SDL_FreeSurface(surface);
+
+        if (!game->images.knightTexture.walk[i]) {
+            printf("Error loading texture for %s: %s\n", surfacePath[i], SDL_GetError());
+            //Shutdown
+            SDL_DestroyRenderer(game->gameInit.renderer);
+            SDL_DestroyWindow(game->gameInit.window);
+            SDL_Quit();
+            exit(1);
+        }
     }
 
     //------------------------

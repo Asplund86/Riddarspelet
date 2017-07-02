@@ -1,0 +1,26 @@
+/home/emil/aur-builds/clion-2017.1.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/emil/code/FirstGame
+CMake Warning (dev) at CMakeLists.txt:24 (target_link_libraries):
+  Policy CMP0023 is not set: Plain and keyword target_link_libraries
+  signatures cannot be mixed.  Run "cmake --help-policy CMP0023" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The plain signature for target_link_libraries has already been used with
+  the target "KNIGHT".  All uses of target_link_libraries with a target
+  should be either all-keyword or all-plain.
+
+  The uses of the plain signature are here:
+
+   * CMakeLists.txt:21 (target_link_libraries)
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+WARNING: Target "KNIGHT" requests linking to directory "/home/emil/code/FirstGame/Data/Scripts/coreScripts".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "KNIGHT" requests linking to directory "/home/emil/code/FirstGame/Data/Scripts/renderScripts".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "KNIGHT" requests linking to directory "/home/emil/code/FirstGame/Data/Scripts/gamePhysics".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "coreLibrary" requests linking to directory "/home/emil/code/FirstGame/Data/Scripts/coreScripts".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "renderLibrary" requests linking to directory "/home/emil/code/FirstGame/Data/Scripts/renderScripts".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "physicsLibrary" requests linking to directory "/home/emil/code/FirstGame/Data/Scripts/gamePhysics".  Targets may link only to libraries.  CMake is dropping the item.
+-- Generating done
+-- Build files have been written to: /home/emil/code/FirstGame

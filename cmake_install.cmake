@@ -37,6 +37,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/emil/code/FirstGame/Data/Scripts/coreScripts/cmake_install.cmake")
   include("/home/emil/code/FirstGame/Data/Scripts/renderScripts/cmake_install.cmake")
   include("/home/emil/code/FirstGame/Data/Scripts/gamePhysics/cmake_install.cmake")
+  include("/home/emil/code/FirstGame/Data/Scripts/animationScripts/cmake_install.cmake")
 
 endif()
 

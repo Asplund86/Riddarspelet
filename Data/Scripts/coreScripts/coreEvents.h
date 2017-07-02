@@ -10,7 +10,7 @@
 #include <stdio.h>
 #include "structs.h"
 
-int closeGameEvent(SDL_Window *window);
+void processEvents(SDL_Window *window, GameState *game);
 
 
 #endif //FIRSTGAME_COREEVENTS_H

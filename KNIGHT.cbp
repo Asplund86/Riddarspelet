@@ -5,7 +5,7 @@
 		<Option title="KNIGHT"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\modules\;CMake Files\Data\;CMake Files\Data\Scripts\;CMake Files\Data\Scripts\coreScripts\;CMake Files\Data\Scripts\renderScripts\;CMake Files\Data\Scripts\gamePhysics\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\modules\;CMake Files\Data\;CMake Files\Data\Scripts\;CMake Files\Data\Scripts\coreScripts\;CMake Files\Data\Scripts\renderScripts\;CMake Files\Data\Scripts\gamePhysics\;CMake Files\Data\Scripts\animationScripts\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/emil/code/FirstGame"/>
@@ -22,6 +22,16 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/emil/code/FirstGame"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 clean"/>
@@ -68,16 +78,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 KNIGHT/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/emil/code/FirstGame"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Makefile&quot;  VERBOSE=1 clean"/>
@@ -215,7 +215,57 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/gamePhysics/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="animationLibrary">
+				<Option output="/home/emil/code/FirstGame/Data/Scripts/animationScripts/libanimationLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emil/code/FirstGame/Data/Scripts/animationScripts"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/animationScripts/Makefile&quot;  VERBOSE=1 animationLibrary"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/animationScripts/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/animationScripts/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/animationScripts/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="animationLibrary/fast">
+				<Option output="/home/emil/code/FirstGame/Data/Scripts/animationScripts/libanimationLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/emil/code/FirstGame/Data/Scripts/animationScripts"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../include/c++/7.1.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/animationScripts/Makefile&quot;  VERBOSE=1 animationLibrary/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/animationScripts/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/animationScripts/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/emil/code/FirstGame/Data/Scripts/animationScripts/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="/home/emil/code/FirstGame/Data/Scripts/animationScripts/knightAnimation.c">
+			<Option target="animationLibrary"/>
+		</Unit>
+		<Unit filename="/home/emil/code/FirstGame/Data/Scripts/animationScripts/knightAnimation.h">
+			<Option target="animationLibrary"/>
+		</Unit>
 		<Unit filename="/home/emil/code/FirstGame/Data/Scripts/coreScripts/coreEvents.c">
 			<Option target="coreLibrary"/>
 		</Unit>
@@ -252,6 +302,9 @@
 		<Unit filename="/home/emil/code/FirstGame/main.c">
 			<Option target="KNIGHT"/>
 		</Unit>
+		<Unit filename="/home/emil/code/FirstGame/main.h">
+			<Option target="KNIGHT"/>
+		</Unit>
 		<Unit filename="/home/emil/code/FirstGame/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
@@ -269,6 +322,9 @@
 		</Unit>
 		<Unit filename="/home/emil/code/FirstGame/Data/Scripts/gamePhysics/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Data\Scripts\gamePhysics\"/>
+		</Unit>
+		<Unit filename="/home/emil/code/FirstGame/Data/Scripts/animationScripts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Data\Scripts\animationScripts\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

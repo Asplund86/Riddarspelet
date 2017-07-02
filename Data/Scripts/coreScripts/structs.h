@@ -10,15 +10,31 @@
 
 typedef struct {
     int z;
-    int x;
-    int y;
+    float x;
+    float y;
+    float yvel;
     short life;
     char *name;
     int facingLeft;
+    int currentAnimationFrame;
+    int jumping;
+    float currentYpos;
+    SDL_Event *moveEvent;
+
 } Knight;
 
 typedef struct {
-    SDL_Texture *walk1;
+    int x;
+    int y;
+    int widht;
+    int height;
+    int currentAnimationFrame;
+    int facingLeft;
+} Backgrounds;
+
+typedef struct {
+    SDL_Texture *walk[10];
+    SDL_Texture *currentWalktexture;
 } KnightTexture;
 
 typedef struct {
@@ -34,12 +50,20 @@ typedef struct {
 typedef struct {
     SDL_Window *window;
     SDL_Renderer *renderer;
+    SDL_Event *event;
+    _Bool closeGame;
+    int currentGameFrame;
+    int currentAnimationFrame;
+    float gravity;
 } GameInit;
 
 
 typedef struct {
     //Game initilazion
     GameInit gameInit;
+
+    //Backgrounds
+    Backgrounds backgroundLevel1;
 
     //Players
     Knight knight1;

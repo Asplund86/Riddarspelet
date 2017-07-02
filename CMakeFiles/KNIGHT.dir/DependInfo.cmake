@@ -18,6 +18,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/emil/code/FirstGame/Data/Scripts/coreScripts/CMakeFiles/coreLibrary.dir/DependInfo.cmake"
   "/home/emil/code/FirstGame/Data/Scripts/renderScripts/CMakeFiles/renderLibrary.dir/DependInfo.cmake"
   "/home/emil/code/FirstGame/Data/Scripts/gamePhysics/CMakeFiles/physicsLibrary.dir/DependInfo.cmake"
+  "/home/emil/code/FirstGame/Data/Scripts/animationScripts/CMakeFiles/animationLibrary.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

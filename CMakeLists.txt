@@ -5,6 +5,7 @@ project(KNIGHT)
 add_subdirectory(Data/Scripts/coreScripts)
 add_subdirectory(Data/Scripts/renderScripts)
 add_subdirectory(Data/Scripts/gamePhysics)
+add_subdirectory(Data/Scripts/animationScripts)
 
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/modules")
@@ -21,4 +22,4 @@ include_directories(${SDL2_INCLUDE_DIR}
 target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARY}
                              ${SDL2_IMAGE_LIBRARIES}
                              )
-target_link_libraries(${PROJECT_NAME} LINK_PUBLIC coreLibrary renderLibrary physicsLibrary ${SDL2_LIBRARY} ${SDL2_image_LIBRARIES})
+target_link_libraries(${PROJECT_NAME} LINK_PUBLIC coreLibrary renderLibrary physicsLibrary animationLibrary ${SDL2_LIBRARY} ${SDL2_image_LIBRARIES})

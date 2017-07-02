@@ -1,0 +1,2 @@
+/usr/bin/ar qc libanimationLibrary.a  CMakeFiles/animationLibrary.dir/knightAnimation.c.o
+/usr/bin/ranlib libanimationLibrary.a
